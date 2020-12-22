@@ -5,5 +5,5 @@ cat <<EOF
 ---
 addons: []
 default_process_types:
-  web: ./atlantis server
+  web: ./atlantis server --port=\$PORT
 EOF
